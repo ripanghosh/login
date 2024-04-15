@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(190, 231, 229);
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(190, 231, 229);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 5px;
+}
+.box{
+    height: 25px;
+    width: 280px;
+    background-color: #52aa14;
+    /* margin: 10px; */
+    display: flex;
+    /* text-align: left; */
+    align-items:center;
+    justify-content:flex-start;
+    padding: 7px;
+    
+}
+.main{
+    
+    height:300px;
+    width: 900px;
+    /* border: 5px solid black; */
+    display: flex;
+    /* flex-direction: column; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: black;
+    padding: 16px 10px;
+}
+.box:hover{
+    background-color: rgba(228, 215, 215, 0.918);
+    
+}
+
+.box button{
+    display: block;
+    background-color: inherit;
+    color: #fff;
+    padding: 14px 10px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    /* transition: 0.3s; */
+    font-size: 15px
+    
+    
+    
+}
+.box1{
+    width: 6000px;
+    height: 330px;
+    /* border: 5px solid green; */
+    background-color: #fff;
+}
+#btn:hover{
+    color: black;
+}
+h1{
+    text-align: center;
+    font-size: 25PX;
+    padding-top: 30PX;
+    color: rgb(71, 71, 224);
+    width: 100%;
+}
+#btn{
+    padding: 0px 10px;
+}
+.image img{
+    padding: 20px;
+    padding-top: 30px;
+    height: 200px;
+}
+.form{
+    display: flex;
+    /* flex-direction: column; */
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    
+   
+    
+}
+input[type=text], select {
+    width: 300px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+    font-weight: bold;
+  }
+  input[type=password], select {
+    width: 300px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+font-weight: bold;
+  }
+  span i{
+    display: inline-block;
+    font: normal normal normal 14px / 1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+  }
+  .user i{
+    position: absolute;
+  }
+.d1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+input[type=submit], select {
+    width: 100px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: rgb(64, 181, 228);
+font-weight: bold;
+cursor: pointer;
+
+  }
+  a button, select{
+    width: 100px;
+    height: 41px;
+    margin-top: 19px;
+    cursor: pointer;
+    background-color: rgb(64, 181, 228);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
